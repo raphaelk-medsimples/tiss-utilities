@@ -1,0 +1,25 @@
+{
+  "name": "api-tiss-cancela-guia",
+  "private": true,
+  "cloudflare": {
+    "label": "TISS Cancela Guia Service Worker",
+    "products": [
+      "Workers"
+    ],
+    "categories": [
+      "healthcare",
+      "api"
+    ]
+  },
+  "devDependencies": {
+    "typescript": "5.8.3",
+    "wrangler": "4.35.0"
+  },
+  "scripts": {
+    "cf-typegen": "wrangler types",
+    "check": "tsc && wrangler deploy --dry-run",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  }
+}
