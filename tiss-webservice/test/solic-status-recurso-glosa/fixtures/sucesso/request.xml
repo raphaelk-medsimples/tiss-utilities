@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas">
+  <soap:Body>
+    <ans:tissSolicitacaoStatusRecursoGlosa_Operation>
+      <ans:solicitacaoStatusRecursoGlosaWS>
+        <ans:cabecalho>
+          <ans:identificacaoTransacao>
+            <ans:tipoTransacao>SOLIC_STATUS_RECURSO_GLOSA</ans:tipoTransacao>
+            <ans:sequencialTransacao>123456789</ans:sequencialTransacao>
+            <ans:dataRegistroTransacao>2024-01-15</ans:dataRegistroTransacao>
+          </ans:identificacaoTransacao>
+          <ans:origem>
+            <ans:codigoOperadora>12345</ans:codigoOperadora>
+            <ans:codigoRegistro>REG001</ans:codigoRegistro>
+          </ans:origem>
+          <ans:destino>
+            <ans:codigoOperadora>67890</ans:codigoOperadora>
+            <ans:codigoRegistro>REG002</ans:codigoRegistro>
+          </ans:destino>
+          <ans:Padrao>4.00.00</ans:Padrao>
+          <ans:loginSenhaPrestador>
+            <ans:loginPrestador>user123</ans:loginPrestador>
+            <ans:senhaPrestador>pass123</ans:senhaPrestador>
+          </ans:loginSenhaPrestador>
+        </ans:cabecalho>
+        <ans:solicitacaoStatusRecursoGlosa>
+          <ans:numeroProtocoloRecurso>PROT_REC_20240115001</ans:numeroProtocoloRecurso>
+          <ans:codigoOperadora>67890</ans:codigoOperadora>
+        </ans:solicitacaoStatusRecursoGlosa>
+        <ans:hash>mock_hash_value_123456789</ans:hash>
+      </ans:solicitacaoStatusRecursoGlosaWS>
+    </ans:tissSolicitacaoStatusRecursoGlosa_Operation>
+  </soap:Body>
+</soap:Envelope>

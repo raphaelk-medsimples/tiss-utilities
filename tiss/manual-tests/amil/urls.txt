@@ -1,0 +1,25 @@
+https://api.amil.com.br/operadora/tiss/servicos-tiss https://api.servicos.grupoamil.com.br/api-tiss-servico
+VERIFICA_ELEGIBILIDADE
+https://api.amil.com.br/operadora/tiss/verifica-elegibilidade/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-verifica-elegibilidade/v4.01.00
+CANCELA_GUIA
+https://api.amil.com.br/operadora/tiss/cancela-guia/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-cancela-guia/v4.01.00
+COMUNICACAO_BENEFICIARIO
+https://api.amil.com.br/operadora/tiss/comunicacao-beneficiario/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-comunicacao-beneficiario/v4.01.00
+ENVIO_DOCUMENTO
+https://api.amil.com.br/operadora/tiss/envio-documento/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-envio-documento/v4.01.00
+ENVIO_ANEXO
+https://api.amil.com.br/operadora/tiss/envio-anexo/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-lote-anexo/v4.01.00
+ENVIO_LOTE_GUIAS
+https://api.amil.com.br/operadora/tiss/envio-lote-guias/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-lote-guias/v4.01.00
+RECURSO_GLOSA
+https://api.amil.com.br/operadora/tiss/recurso-glosa/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-recurso-glosa/v4.01.00
+SOLIC_DEMONSTRATIVO_RETORNO
+https://api.amil.com.br/operadora/tiss/solic-demonstrativo-retorno/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-solicitacao-demonstrativo-retorno/v4.01.00
+SOLICITACAO_PROCEDIMENTOS
+https://api.amil.com.br/operadora/tiss/solicitacao-procedimentos/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-solicitacao-procedimento/v4.01.00
+SOLICITA_STATUS_AUTORIZACAO
+https://api.amil.com.br/operadora/tiss/solicita-status-autorizacao/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-solicitacao-status-autorizacao/v4.01.00
+SOLIC_STATUS_PROTOCOLO
+https://api.amil.com.br/operadora/tiss/solic-status-protocolo/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-solicitacao-status-protocolo/v4.01.00
+SOLIC_STATUS_RECURSO_GLOSA
+https://api.amil.com.br/operadora/tiss/solic-status-recurso-glosa/soap/v40100 https://api.servicos.grupoamil.com.br/api-tiss-solicitacao-status-recurso-glosa/v4.01.00

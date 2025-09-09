@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas">
+  <soap:Body>
+    <ans:tissLoteGuias_Operation>
+      <ans:loteGuiasWS>
+        <ans:cabecalho>
+          <ans:identificacaoTransacao>
+            <ans:tipoTransacao>ENVIO_LOTE_GUIAS</ans:tipoTransacao>
+            <ans:sequencialTransacao>123456789</ans:sequencialTransacao>
+            <ans:dataRegistroTransacao>2024-01-15</ans:dataRegistroTransacao>
+          </ans:identificacaoTransacao>
+          <ans:origem>
+            <ans:codigoOperadora>12345</ans:codigoOperadora>
+            <ans:codigoRegistro>REG001</ans:codigoRegistro>
+          </ans:origem>
+          <ans:destino>
+            <ans:codigoOperadora>67890</ans:codigoOperadora>
+            <ans:codigoRegistro>REG002</ans:codigoRegistro>
+          </ans:destino>
+          <ans:Padrao>4.00.00</ans:Padrao>
+          <ans:loginSenhaPrestador>
+            <ans:loginPrestador>user123</ans:loginPrestador>
+            <ans:senhaPrestador>pass123</ans:senhaPrestador>
+          </ans:loginSenhaPrestador>
+        </ans:cabecalho>
+        <ans:loteGuias>
+          <ans:numeroLote>LOTE_GUI_20240115001</ans:numeroLote>
+          <ans:codigoPrestador>PREST001</ans:codigoPrestador>
+          <ans:quantidadeGuias>5</ans:quantidadeGuias>
+          <ans:valorTotalLote>850.00</ans:valorTotalLote>
+          <ans:dataEnvio>2024-01-15</ans:dataEnvio>
+        </ans:loteGuias>
+        <ans:hash>mock_hash_value_123456789</ans:hash>
+      </ans:loteGuiasWS>
+    </ans:tissLoteGuias_Operation>
+  </soap:Body>
+</soap:Envelope>

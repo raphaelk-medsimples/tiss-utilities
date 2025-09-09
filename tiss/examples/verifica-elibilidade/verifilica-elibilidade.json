@@ -1,0 +1,22 @@
+{
+	"request": {
+		"url": "https://portal03.omnisaude.co/TISS40100OPS/tissVerificaElegibilidade",
+		"method": "POST",
+		"headers": {
+			"Content-Type": "text/xml;charset=utf-8",
+			"Cookie": "PORTAL=cookie_srvaustaportal01"
+		},
+		"body": "<?xml version=\"1.0\" ?><soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:sch=\"http://www.ans.gov.br/padroes/tiss/schemas\" xmlns:xd=\"http://www.w3.org/2000/09/xmldsig#\"><soapenv:Header/><soapenv:Body><sch:pedidoElegibilidadeWS><sch:cabecalho><sch:identificacaoTransacao><sch:tipoTransacao>SITUACAO_ELEGIBILIDADE</sch:tipoTransacao><sch:sequencialTransacao>175695182870</sch:sequencialTransacao><sch:dataRegistroTransacao>2025-09-04</sch:dataRegistroTransacao><sch:horaRegistroTransacao>02:10:28</sch:horaRegistroTransacao></sch:identificacaoTransacao><sch:origem><sch:identificacaoPrestador><sch:codigoPrestadorNaOperadora>24593342000120</sch:codigoPrestadorNaOperadora></sch:identificacaoPrestador></sch:origem><sch:destino><sch:registroANS>327417</sch:registroANS></sch:destino><sch:Padrao>4.01.00</sch:Padrao></sch:cabecalho><sch:pedidoElegibilidade><sch:dadosPrestador><sch:codigoPrestadorNaOperadora>24593342000120</sch:codigoPrestadorNaOperadora></sch:dadosPrestador><sch:numeroCarteira>300180025823300</sch:numeroCarteira></sch:pedidoElegibilidade><sch:hash>0E173546DF898A1F136F9B5194638E33</sch:hash></sch:pedidoElegibilidadeWS></soapenv:Body></soapenv:Envelope>"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"content-type": "text/xml;charset=utf-8",
+			"date": "Thu, 04 Sep 2025 05:06:50 GMT",
+			"server": "Apache-Coyote/1.1",
+			"set-cookie": "SERVER_USED=df4668426c4ad245; path=/",
+			"transfer-encoding": "chunked"
+		},
+		"body": "<?xml version=\"1.0\" ?><S:Envelope xmlns:S=\"http://schemas.xmlsoap.org/soap/envelope/\"><S:Body><respostaElegibilidadeWS xmlns=\"http://www.ans.gov.br/padroes/tiss/schemas\" xmlns:ns2=\"http://www.w3.org/2000/09/xmldsig#\"><cabecalho><identificacaoTransacao><tipoTransacao>VERIFICA_ELEGIBILIDADE</tipoTransacao><sequencialTransacao>175695182870</sequencialTransacao><dataRegistroTransacao>2025-09-04</dataRegistroTransacao><horaRegistroTransacao>02:10:28</horaRegistroTransacao></identificacaoTransacao><origem><registroANS>327417</registroANS></origem><destino><identificacaoPrestador><codigoPrestadorNaOperadora>24593342000120</codigoPrestadorNaOperadora></identificacaoPrestador></destino><Padrao>4.01.00</Padrao></cabecalho><respostaElegibilidade><codigoGlosa><codigoGlosa>5012</codigoGlosa><descricaoGlosa>RECEBIMENTO DE MENSAGEM NÃO FINALIZADO. </descricaoGlosa></codigoGlosa></respostaElegibilidade><hash>0E173546DF898A1F136F9B5194638E33</hash></respostaElegibilidadeWS></S:Body></S:Envelope>"
+	}
+}

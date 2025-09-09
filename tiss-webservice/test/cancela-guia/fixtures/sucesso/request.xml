@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas">
+  <soap:Body>
+    <ans:tissCancelaGuia_Operation>
+      <ans:cancelaGuiaWS>
+        <ans:cabecalho>
+          <ans:identificacaoTransacao>
+            <ans:tipoTransacao>CANCELA_GUIA</ans:tipoTransacao>
+            <ans:sequencialTransacao>123456789</ans:sequencialTransacao>
+            <ans:dataRegistroTransacao>2024-01-15</ans:dataRegistroTransacao>
+          </ans:identificacaoTransacao>
+          <ans:origem>
+            <ans:codigoOperadora>12345</ans:codigoOperadora>
+            <ans:codigoRegistro>REG001</ans:codigoRegistro>
+          </ans:origem>
+          <ans:destino>
+            <ans:codigoOperadora>67890</ans:codigoOperadora>
+            <ans:codigoRegistro>REG002</ans:codigoRegistro>
+          </ans:destino>
+          <ans:Padrao>4.00.00</ans:Padrao>
+          <ans:loginSenhaPrestador>
+            <ans:loginPrestador>user123</ans:loginPrestador>
+            <ans:senhaPrestador>pass123</ans:senhaPrestador>
+          </ans:loginSenhaPrestador>
+        </ans:cabecalho>
+        <ans:cancelaGuia>
+          <ans:numeroGuiaOperadora>OP20240115001</ans:numeroGuiaOperadora>
+          <ans:numeroGuiaPrincipal>GP20240115001</ans:numeroGuiaPrincipal>
+          <ans:motivoCancelamento>CANCELAMENTO_POR_SOLICITACAO_MEDICA</ans:motivoCancelamento>
+          <ans:observacao>Cancelamento solicitado pelo médico responsável</ans:observacao>
+        </ans:cancelaGuia>
+        <ans:hash>mock_hash_value_123456789</ans:hash>
+      </ans:cancelaGuiaWS>
+    </ans:tissCancelaGuia_Operation>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas">
+  <soap:Body>
+    <ans:tissVerificaElegibilidade_Operation>
+      <ans:pedidoElegibilidadeWS>
+        <ans:cabecalho>
+          <ans:identificacaoTransacao>
+            <ans:tipoTransacao>VERIFICA_ELEGIBILIDADE</ans:tipoTransacao>
+            <ans:sequencialTransacao>123456789</ans:sequencialTransacao>
+            <ans:dataRegistroTransacao>2024-01-15</ans:dataRegistroTransacao>
+          </ans:identificacaoTransacao>
+          <ans:origem>
+            <ans:codigoOperadora>12345</ans:codigoOperadora>
+            <ans:codigoRegistro>REG001</ans:codigoRegistro>
+          </ans:origem>
+          <ans:destino>
+            <ans:codigoOperadora>67890</ans:codigoOperadora>
+            <ans:codigoRegistro>REG002</ans:codigoRegistro>
+          </ans:destino>
+          <ans:Padrao>4.00.00</ans:Padrao>
+          <ans:loginSenhaPrestador>
+            <ans:loginPrestador>user123</ans:loginPrestador>
+            <ans:senhaPrestador>pass123</ans:senhaPrestador>
+          </ans:loginSenhaPrestador>
+        </ans:cabecalho>
+        <ans:pedidoElegibilidade>
+          <ans:dadosPrestador>
+            <ans:codigoPrestador>PREST001</ans:codigoPrestador>
+            <ans:codigoCNES>1234567</ans:codigoCNES>
+          </ans:dadosPrestador>
+          <ans:numeroCarteira>1234567890</ans:numeroCarteira>
+          <ans:tipoIdent>01</ans:tipoIdent>
+          <ans:identificadorBeneficiario>MTIzNDU2Nzg5MA==</ans:identificadorBeneficiario>
+          <ans:validadeCarteira>2024-12-31</ans:validadeCarteira>
+          <ans:codValidacao>VAL123</ans:codValidacao>
+        </ans:pedidoElegibilidade>
+        <ans:hash>mock_hash_value_123456789</ans:hash>
+      </ans:pedidoElegibilidadeWS>
+    </ans:tissVerificaElegibilidade_Operation>
+  </soap:Body>
+</soap:Envelope>

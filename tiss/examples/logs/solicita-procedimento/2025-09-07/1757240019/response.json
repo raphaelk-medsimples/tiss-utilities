@@ -1,0 +1,57 @@
+{
+  "autorizacaoProcedimentoWS": {
+    "cabecalho": {
+      "identificacaoTransacao": {
+        "tipoTransacao": "RESPOSTA_SOLICITACAO",
+        "sequencialTransacao": "1757240017",
+        "dataRegistroTransacao": "2025-09-07",
+        "horaRegistroTransacao": "07:13:39"
+      },
+      "origem": {
+        "registroANS": "326305"
+      },
+      "destino": {
+        "identificacaoPrestador": {
+          "codigoPrestadorNaOperadora": "70434816"
+        }
+      },
+      "Padrao": "4.01.00"
+    },
+    "autorizacaoProcedimento": {
+      "autorizacaoServico": {
+        "dadosAutorizacao": {
+          "numeroGuiaPrestador": "1757240017500",
+          "dataAutorizacao": "2025-09-07",
+          "senha": "EX2025016568453",
+          "dataValidadeSenha": "2025-11-06"
+        },
+        "tipoEtapaAutorizacao": "1",
+        "dadosBeneficiario": {
+          "numeroCarteira": "093897586",
+          "atendimentoRN": "N"
+        },
+        "prestadorAutorizado": {
+          "dadosContratado": {
+            "codigoPrestadorNaOperadora": "70434816"
+          },
+          "cnesContratado": "2998386"
+        },
+        "statusSolicitacao": "1",
+        "servicosAutorizados": {
+          "servicoAutorizado": {
+            "sequencialItem": "1",
+            "procedimento": {
+              "codigoTabela": "22",
+              "codigoProcedimento": "10101012",
+              "descricaoProcedimento": "Consulta Em Consultório (No Horário Normal Ou Preestabelecido) "
+            },
+            "quantidadeSolicitada": "1",
+            "quantidadeAutorizada": "1"
+          }
+        },
+        "observacao": ""
+      }
+    },
+    "hash": "db1c8933d1664ee0fd7c998ff1fb91a0"
+  }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+<soapenv:Header/>
+<soapenv:Body>
+<ans:pedidoElegibilidadeWS>
+      <ans:cabecalho>
+        <ans:identificacaoTransacao>
+          <ans:tipoTransacao>VERIFICA_ELEGIBILIDADE</ans:tipoTransacao>
+          <ans:sequencialTransacao>1757240016</ans:sequencialTransacao>
+          <ans:dataRegistroTransacao>2025-09-07</ans:dataRegistroTransacao>
+          <ans:horaRegistroTransacao>07:13:36</ans:horaRegistroTransacao>
+        </ans:identificacaoTransacao>
+        <ans:origem>
+          <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>70434816</ans:codigoPrestadorNaOperadora>
+          </ans:identificacaoPrestador>
+        </ans:origem>
+        <ans:destino>
+          <ans:registroANS>326305</ans:registroANS>
+        </ans:destino>
+        <ans:Padrao>4.01.00</ans:Padrao>
+      </ans:cabecalho>
+      <ans:pedidoElegibilidade>
+        <ans:dadosPrestador>
+          <ans:codigoPrestadorNaOperadora>70434816</ans:codigoPrestadorNaOperadora>
+        </ans:dadosPrestador>
+        <ans:numeroCarteira>093897586</ans:numeroCarteira>
+      </ans:pedidoElegibilidade>
+      <ans:hash>c71de1599ac6e01fd5a47db266e0da50</ans:hash>
+    </ans:pedidoElegibilidadeWS>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ans="http://www.ans.gov.br/padroes/tiss/schemas" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+<soapenv:Header/>
+<soapenv:Body>
+<ans:solicitacaoProcedimentoWS>
+      <ans:cabecalho>
+        <ans:identificacaoTransacao>
+          <ans:tipoTransacao>SOLICITACAO_PROCEDIMENTOS</ans:tipoTransacao>
+          <ans:sequencialTransacao>1757240017</ans:sequencialTransacao>
+          <ans:dataRegistroTransacao>2025-09-07</ans:dataRegistroTransacao>
+          <ans:horaRegistroTransacao>07:13:37</ans:horaRegistroTransacao>
+        </ans:identificacaoTransacao>
+        <ans:origem>
+          <ans:identificacaoPrestador>
+            <ans:codigoPrestadorNaOperadora>70434816</ans:codigoPrestadorNaOperadora>
+          </ans:identificacaoPrestador>
+        </ans:origem>
+        <ans:destino>
+          <ans:registroANS>326305</ans:registroANS>
+        </ans:destino>
+        <ans:Padrao>4.01.00</ans:Padrao>
+        <ans:loginSenhaPrestador>
+          <ans:loginPrestador>70434816</ans:loginPrestador>
+          <ans:senhaPrestador>a5568e2a20bc914059410ffb7e6cd706</ans:senhaPrestador>
+        </ans:loginSenhaPrestador>
+      </ans:cabecalho>
+      <ans:solicitacaoProcedimento>
+        <ans:solicitacaoSP-SADT>
+          <ans:cabecalhoSolicitacao>
+            <ans:registroANS>326305</ans:registroANS>
+            <ans:numeroGuiaPrestador>1757240017500</ans:numeroGuiaPrestador>
+          </ans:cabecalhoSolicitacao>
+          
+          
+          <ans:tipoEtapaAutorizacao>1</ans:tipoEtapaAutorizacao>
+          <ans:dadosBeneficiario>
+            <ans:numeroCarteira>093897586</ans:numeroCarteira>
+            <ans:atendimentoRN>N</ans:atendimentoRN>
+            <ans:tipoIdent>03</ans:tipoIdent>
+          </ans:dadosBeneficiario>
+          <ans:dadosSolicitante>
+            <ans:contratadoSolicitante>
+              <ans:codigoPrestadorNaOperadora>70434816</ans:codigoPrestadorNaOperadora>
+            </ans:contratadoSolicitante>
+            <ans:nomeContratadoSolicitante>MRSPF CLINICA MEDICA LTDA</ans:nomeContratadoSolicitante>
+            <ans:profissionalSolicitante>
+              <ans:nomeProfissional>Felipe Henrique Yazawa Santos</ans:nomeProfissional>
+              <ans:conselhoProfissional>06</ans:conselhoProfissional>
+              <ans:numeroConselhoProfissional>176861</ans:numeroConselhoProfissional>
+              <ans:UF>35</ans:UF>
+              <ans:CBOS>225135</ans:CBOS>
+            </ans:profissionalSolicitante>
+          </ans:dadosSolicitante>
+          <ans:caraterAtendimento>1</ans:caraterAtendimento>
+          <ans:dataSolicitacao>2025-09-07</ans:dataSolicitacao>
+          <ans:procedimentosSolicitados>
+            
+            <ans:procedimento>
+              <ans:codigoTabela>22</ans:codigoTabela>
+              <ans:codigoProcedimento>10101012</ans:codigoProcedimento>
+              <ans:descricaoProcedimento>Consulta em consultório (no horário normal ou preestabelecido)</ans:descricaoProcedimento>
+            </ans:procedimento>
+            <ans:quantidadeSolicitada>1</ans:quantidadeSolicitada>
+            
+          </ans:procedimentosSolicitados>
+          <ans:dadosExecutante>
+            <ans:codigonaOperadora>70434816</ans:codigonaOperadora>
+            <ans:CNES>2998386</ans:CNES>
+          </ans:dadosExecutante>
+        </ans:solicitacaoSP-SADT>
+      </ans:solicitacaoProcedimento>
+      <ans:hash>af58a154028f118346501eec7f4c75c1</ans:hash>
+    </ans:solicitacaoProcedimentoWS>
+</soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,32 @@
+{
+  "respostaElegibilidadeWS": {
+    "$": {
+      "xmlns": "http://www.ans.gov.br/padroes/tiss/schemas",
+      "xmlns:ns2": "http://www.w3.org/2000/09/xmldsig#"
+    },
+    "cabecalho": {
+      "identificacaoTransacao": {
+        "tipoTransacao": "VERIFICA_ELEGIBILIDADE",
+        "sequencialTransacao": "1757240016",
+        "dataRegistroTransacao": "2025-09-07",
+        "horaRegistroTransacao": "07:13:36"
+      },
+      "origem": {
+        "registroANS": "326305"
+      },
+      "destino": {
+        "identificacaoPrestador": {
+          "codigoPrestadorNaOperadora": "70434816"
+        }
+      },
+      "Padrao": "4.01.00"
+    },
+    "respostaElegibilidade": {
+      "codigoGlosa": {
+        "codigoGlosa": "5012",
+        "descricaoGlosa": "RECEBIMENTO DE MENSAGEM NÃO FINALIZADO. Erro: Glosa 1203 - Código Prestador inválido."
+      }
+    },
+    "hash": "c71de1599ac6e01fd5a47db266e0da50"
+  }
+}
