@@ -1,0 +1,11 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "api-tiss-solicitacao-status-autorizacao",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-04-01",
+	"upload_source_maps": true,
+	"compatibility_flags": ["nodejs_compat"],
+	"observability": {
+		"enabled": true
+	}
+}
